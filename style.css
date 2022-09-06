@@ -1,0 +1,83 @@
+body{
+  background-image: url("immagini/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body > div{
+  width: 900px;
+  height: 700px;
+  border-radius: 10px;
+  margin: auto;
+  background-color: black;
+  opacity: 0.6;
+}
+.contenitore{
+  width: 700px;
+  margin: auto;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+#lim{
+  width: 230px;
+  height: 100px;
+  margin: auto;
+}
+
+h1{
+  color: #00dd00;
+  text-align: center;
+}
+
+
+.elenco.grosso{
+  font-size: 18px;
+
+}
+
+.logo{
+  text-align: center;
+  padding-top: 60px;
+
+}
+.spazio{
+  height: 20px;
+}
+.sezione-bottoni{
+  text-align: center;
+  background-color: #00dd00;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+p{
+  color: white;
+}
+.elenco{
+  margin: 0px;
+  font-size: 15px;
+}
+
+.stato-carica1{
+  background-color: orange;
+  height: 25px;
+  width: 280px;
+  border-radius: 5px;
+}
+
+.stato-carica2{
+  background-color: green;
+  height: 25px;
+  width: 420px;
+  border-radius: 5px;
+}
+
+.stato-carica3{
+  background-color: red;
+  height: 25px;
+  width: 100px;
+  border-radius: 5px;
+}
